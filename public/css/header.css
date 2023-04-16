@@ -1,0 +1,68 @@
+.header {
+      background-color: #000000;
+			padding: 30px 0;
+			color: #ffffff;
+			font-family: 'Montserrat', sans-serif;
+			font-size: 18px;
+			line-height: 1.5;
+			position: relative;
+			z-index: 99;
+		}
+
+		.header__logo {
+			position: absolute;
+			top: 50%;
+			left: 20px;
+			transform: translateY(-50%);
+		}
+
+		.header__logo img {
+			max-height: 40px;
+		}
+
+		.header__menu {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+
+		.header__menu .nav-link {
+			padding: 10px 20px;
+			font-weight: 600;
+		}
+
+		.header__menu .nav-link:hover {
+			background-color: #1abc9c;
+		}
+
+		.header__menu .dropdown-menu {
+			background-color: #2c3e50;
+			border: none;
+		}
+
+		.header__menu .dropdown-item {
+			color: #fff;
+			font-weight: 600;
+		}
+
+		.header__menu .dropdown-item:hover {
+			background-color: #1abc9c;
+		}
+
+		.header__social {
+			position: absolute;
+			top: 50%;
+			right: 20px;
+			transform: translateY(-50%);
+		}
+
+		.header__social .header__social-icon {
+			color: #fff;
+			padding: 5px;
+			transition: color 0.3s;
+		}
+
+		.header__social .header__social-icon:hover {
+			color: #1abc9c;
+		}
